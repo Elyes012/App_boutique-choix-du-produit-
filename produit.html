@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./js/produit.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <title>Vente Produit</title>
+</head>
+<body>
+    <div class="prodesg">
+        <div class="spec">
+            <br>
+            <h3>Mon Boutique</h3>
+        <p>Choix de l'article :</p>
+            <select id="produit"  >
+
+            <option  value="Chemises"><h3></h3>Chemises</h3></option>
+                <option value="Polos">Polos</option>
+                <option value="T-shirts">T-shirts</option>
+                
+            </select>
+
+            <p>Choix de la taille :</p>
+            <select  id="taille">
+
+            <option  value="T.Small">T.Small</option>
+                <option value="T.Medium">T.Medium</option>
+                <option value="T.Large">T.Large</option>
+                
+            </select>
+            <br>
+            <br>
+            <input type="button" class="btn" value="Donner le prix" onclick="calcule();">
+            <br>
+            <br>
+            <form>
+            <input type="text" name="Prix du produit" id="res">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
